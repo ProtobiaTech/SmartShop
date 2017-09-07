@@ -1,2 +1,13 @@
-// @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+//
+// Boogstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 
+
+//
+// Layout
+@import "layout";
+
+
+//
+// Home Scss Files
+@import "home/dashboard";

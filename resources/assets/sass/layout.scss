@@ -1,0 +1,45 @@
+//
+// Layout
+// -----------------------------------
+
+
+//
+//
+html, body, .container-fluid, .row {
+  height: 100%;
+}
+
+
+//
+// 导航栏
+#section-navbar {
+  background-color: #4C5E70;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+  // brand
+  .navbar-brand {
+    position: static;
+    float: none;
+    display: block;
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  // nav
+  ul.nav {
+    li {
+      a {
+        border-radius: 0;
+        color: #B4BAC0;
+      }
+
+      &.active a {
+        color: #fff;
+        background-color: #2CC0E8;
+      }
+    }
+  }
+}

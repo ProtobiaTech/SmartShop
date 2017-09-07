@@ -11,6 +11,16 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
+// 首页仪表盘
+Route::get('/', 'HomeController@dashboard');
+
+
+// 用户
+Route::controller('users', 'UserController');
+
+// 会员
+Route::controller('member', 'MemberController');
+
+// 门店
+Route::controller('shop', 'ShopController');
